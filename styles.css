@@ -72,3 +72,39 @@
     margin-top: 8px;
 }
 
+.information {
+    margin-bottom: 100px;
+}
+
+.information p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.information .images {
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.images img {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.information .texts {
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.texts p {
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+}
