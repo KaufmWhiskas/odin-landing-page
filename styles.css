@@ -108,3 +108,63 @@
     text-align: center;
     width: 200px;
 }
+
+.quote {
+    padding: 130px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote #quote {
+    align-self: center;
+    width: 800px;
+}
+
+.quote #quotee {
+    color: black;
+    font-weight: bold;
+    align-items: end;
+    font-size: 24px;
+    margin-right: 460px;
+    font-style: normal;
+}
+
+.cta {
+    flex-direction: row;
+    background-color: #3882F6;
+    align-self: center;
+    padding: 50px;
+    margin: 100px;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 800px;
+}
+
+.cta .cta-text {
+    color: white;
+}
+
+.cta-text #title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta button {
+    background-color: #3882F6;
+    color: white;
+    align-self: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 4px 24px;
+    margin-right: 80px;
+}
+
+.footer {
+    background-color: #1F2937;
+    align-items: center;
+    color: white;
+    padding: 20px 0px;
+}
